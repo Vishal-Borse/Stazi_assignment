@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&family=Poppins:wght@200;400;600&display=swap");
+
+
+
+.App {
+  background-color: #F1F5FC;
+  overflow: hidden;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  /* background-color: #E6FFFD; */
+}
+.cars {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+}
+img {
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
+.carCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #EFF3F9;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.nameModel {
+  display: flex;
+  gap:160px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nameModel h2{
+  font-weight: 400;
+  font-size: 22px;
+}
+.nameModel h3{
+  font-weight: 400;
+  font-size: 15px;
+  border: 1px dashed #068FFF;
+  border-radius: 5px;
+  padding: 8px 20px;
+
+}
+.carFeatures {
+  display: flex;
+  flex-direction: row;
+  gap:30px;
+  margin:5px auto 5px 10px;
+}
+.carFeatures div{
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-items: start;
+}
+.carFeatures div div{
+  margin: 8px 8px 8px 0;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  align-items: center;
+  gap:5px;
+}
+.carInfo p{
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+
+}
+.icons{
+  color: #30A2FF;
+  font-size: 23px;
+  font-weight: 600;
+}
+hr{
+  margin: 10px auto;
+  width: 280px;
+  border: none;
+  border-top: 1px solid #e4f1ff;
+}
+.rentDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:75px
+}
+.carRent h1{
+  font-size: 23px;
+  font-weight: 400;
+
+}
+.carRent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.carRent strong{
+  font-size: 10px;
+  font-weight: 400;
+}
+.heartIcon{
+  color: #30A2FF;
+  background-color: #e4f1ff;
+  padding: 12px;
+  border-radius: 10px;
+  
+}
+.rentBtn{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.rentBtn button{
+  background-color: #30A2FF;
+  border: none;
+  padding: 12px 20px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 15px;
+}
+/* .............................................................................................. */
+.paginationBtns {
+  height: 10px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1F5FC;
+}
+.paginationBtns a {
+  text-align: center;
+  margin: 10px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-size: 15px;
+}
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 5px 15px 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+.pagination h2{
+  font-size: 15px;
+  font-weight: 400;
+
+}
+.pagination a:hover{
+  background-color: #30A2FF;
+  color:#fff
+}
+.activeBtn a{
+  background-color: #30A2FF;
+  color:#fff
+
+}
+
+/* .............................................................................................. */
+/* header component */
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:40px;
+  padding: 10px 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 5px 15px 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #fff
+}
+.dropDown{
+  display: flex;
+  align-items: center;
+}
+.header input{
+  border: none;
+  padding: 10px 20px;
+  width: 300px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 15px;
+}
+.searchIcon{
+  background-color: #fff;
+  padding: 12px 20px;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 15px;
+}
+.dropDown{
+  font-size: 15px;
+}
+.searchInput:focus{
+  outline: transparent;
+  
+}
